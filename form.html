@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css" media="screen">
+    <title>Register Form</title>
+</head>
+<body>
+    
+    <div class="field">
+        <h1 id="title">Simple Register Form</h1>
+        <p id="subtitle">Made with ❤️ by Kayler Moura</p>
+        <br>
+    </div class="field">
+
+    <form action="">
+        <fieldset class="group">
+            <div class="field">
+                <label for="name"><strong>Name</strong></label>
+                <input type="text" name="name" id="name" required>
+            </div class="field">
+
+            <div class="field">
+                <label for="surname"><strong>Surname</strong></label>
+                <input type="text" name="surname" id="surname" required>
+            </div class="field">
+        </fieldset>
+
+        <div class="field">
+            <label for="email"><strong>Email</strong></label>
+            <input type="email" name="" id="email" required>
+        </div class="field">
+
+        <div class="field">
+            <label><strong>What's your gender?</strong></label>
+
+            <label>
+                <input type="radio" name="gender" value="male">Male
+            </label>
+
+            <label>
+                <input type="radio" name="gender" value="female">Female
+            </label>
+
+            <label>
+                <input type="radio" name="gender" value="undefined">I'd rather not say
+            </label>
+        </div class="field">
+
+        <div class="field">
+            <label for="civil-status"><strong>What's your civil status?</strong></label>
+
+            <select name="civil-status" id="civil-status">
+                <option selected disabled value="">Choose</option>
+                <option>Single</option>
+                <option>Maried</option>
+                <option>Divorced</option>
+            </select>
+        </div class="field">
+
+        <fieldset class="group">
+            <div id="checkbox">
+                <label><strong>Select your favorite music genres:</strong></label><br><br>
+                
+                <input type="checkbox" id="music" name="genre1" value="html">
+                <label for="genre1">Rock</label>
+                <input type="checkbox" id="music" name="genre2" value="html">
+                <label for="genre2">Pop</label>
+                <input type="checkbox" id="music" name="genre3" value="html">
+                <label for="genre3">Funk</label>
+                <input type="checkbox" id="music" name="genre4" value="html">
+                <label for="genre4">Eletronic</label>
+                <input type="checkbox" id="music" name="genre5" value="html">
+                <label for="genre5">Rap</label>
+                <input type="checkbox" id="music" name="genre6" value="html">
+                <label for="genre6">Country</label>
+                <input type="checkbox" id="music" name="genre7" value="html">
+                <label for="genre7">LoFi</label>
+                <input type="checkbox" id="music" name="genre8" value="html">
+                <label for="genre8">Indie</label>
+                <input type="checkbox" id="music" name="genre9" value="html">
+                <label for="genre9">Classical</label>
+                <input type="checkbox" id="music" name="genre10" value="html">
+                <label for="genre10">Jazz</label>
+                <input type="checkbox" id="music" name="genre11" value="html">
+                <label for="genre11">Blues</label>
+            </div class="field">
+        </fieldset>
+
+        <div class="field">
+            <br>
+            <label>
+                <strong>
+                    Tell us a little bit about yourself! What are your hobbies and things you like to do?
+                </strong>
+            </label>
+            <br>
+            <textarea name="about" id="about" cols="30" rows="10" style="width: 60em;"></textarea>
+
+            <button class="button" type="submit">Submit</button>
+        </div class="field">
+    </form>
+
+</body>
+</html>
